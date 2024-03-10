@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PhoneFly</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/7c0a7ad468.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- jquery  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+</head>
+
+<body>
+    <header>
+        <section id="navbar" class="">
+            <nav id="navbar-container"
+                class="navbar navbar-expand-lg navbar-expand-md border-body mb-0 d-flex flex-column fixed-top"
+                data-bs-theme="dark">
+                <div class="container w-75">
+                    <img class="logo-img" src="images/logo-removebg-preview.png" alt="" srcset="">
+                    <div class="text-light d-flex flex-column">
+                        <a id="navbar-brand-title" class="navbar-brand" href="">PhoneFly</a>
+                    </div>
+                    <div>
+                        <a class="d-flex align-items-center" href="#"><i id="search-icon-id"
+                                class="fa-solid fa-magnifying-glass search-icon-display"></i></a></i>
+                    </div>
+                    <div>
+                        <a id="cart-icon-id" class="d-flex align-items-center" href="#"><i
+                                class="fa-solid fa-cart-shopping cart-icon"></i></a></i>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <div>
+                                <li class="nav-item ms-4 me-4">
+                                    <a id="navbar-brand" class="nav-link" href="#">Mobile</a>
+                                </li>
+                            </div>
+                            <div>
+                                <li class="nav-item ms-3 me-3">
+                                    <a id="category-brand" class="nav-link" href="#">Categories</a>
+                                </li>
+                            </div>
+                            <div>
+                                <li class="nav-item ms-3 me-3">
+                                    <a id="support-brand" class="nav-link" href="#">Support</a>
+                                </li>
+                            </div>
+                        </ul>
+                        <!-- <form class="" role="search">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </form> -->
+                    </div>
+                </div>
+                <div class="contianer w-75">
+                    <div id="home-hover" class="text-light text-start w-100">
+                        <h6 id="popular-title" class="w3-animate-opacity">Popular Smart Phone</h6>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Apple</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Samsung</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Nokia</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">OnePlus</a></h3>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contianer w-25">
+                    <div id="home-hover2" class="text-light text-start w-100">
+                        <h6 id="popular-title" class="w3-animate-opacity">Quick Links</h6>
+                        <p class="w3-animate-opacity m-0"><a class="text-decoration-none" href="">Buy iphone 15</a></p>
+                        <p class="w3-animate-opacity m-0"><a class="text-decoration-none" href="">Buy Samsung s23
+                                ultra</a></p>
+                        <p class="w3-animate-opacity m-0"><a class="text-decoration-none" href="">Buy OnePlus11</a></p>
+                    </div>
+                </div>
+                <!-- search section  -->
+                <div class="contianer w-75">
+                    <div id="search-hover" class="text-light text-start w-100 w3-animate-opacity">
+                        <form class="d-flex align-items-center" role="search">
+                            <a id="search-btn" class="d-flex align-items-center" href="#"><i
+                                    class="fa-solid fa-magnifying-glass me-2 search-icon"></i></a>
+                            <input id="search-input" class="form-control w-75 search-bg border-0 rounded-0 ps-5"
+                                autocomplete="off" type="search" placeholder="Search" aria-label="Search">
+                            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                        </form>
+                    </div>
+                </div>
+                <!-- Categories section  -->
+                <div class="contianer w-75">
+                    <div id="categories-hover" class="text-light text-start w-100">
+                        <h6 id="popular-title" class="w3-animate-opacity">Phone Categories</h6>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">5G Phone</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">4G Phone</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">SmartPhone</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Keypad</a></h3>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ....... -->
+                <div class="contianer w-25">
+                    <div id="categories-hover2" class="text-light text-start w-100">
+                        <h6 id="popular-title" class="w3-animate-opacity">More about phones</h6>
+                        <p class="w3-animate-opacity m-0"><a class="text-decoration-none" href="">Analysis of
+                                Smartphones Life Cycle</a></p>
+                        <p class="w3-animate-opacity m-0"><a class="text-decoration-none" href="">Top-Selling Smartphone
+                                Brands in the World</a></p>
+                    </div>
+                </div>
+                <!-- cart section  -->
+                <div class="contianer w-75">
+                    <div id="cart-hover" class="text-light text-start w-100">
+                        <h1 class="w3-animate-opacity mb-3">Your Bag is empty.</h1>
+                        <p class="w3-animate-opacity"><a class="text-primary" href="">Sign In</a> <span
+                                class="sign-title">to see if you have any saved items</span></p>
+                        </ul>
+                    </div>
+                </div>
+                <!-- support section  -->
+                <div class="contianer w-75">
+                    <div id="support-hover" class="text-light text-start w-100">
+                        <h6 id="popular-title" class="w3-animate-opacity">Get Help</h6>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Community</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Contact Us</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Repair</a></h3>
+                        <h3 class="w3-animate-opacity"><a class="text-decoration-none" href="">Telegram</a></h3>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main id="main-section" class="">
+        <!-- result-section start here -->
+        <section id="result-section">
+            <div class="container mt-5 pt-5">
+                <div style="width: 85%;" class="mx-auto mt-5">
+                    <div class="d-flex align-items-center mb-5">
+                        <a id="search-btn-error" class="d-flex align-items-center" href="#"><i
+                                class="fa-solid fa-magnifying-glass me-2 error-search-icon"></i></a>
+                        <input id="search-input-error"
+                            class="form-control w-100 border-top-0 border-start-0 border-end-0  error-search-bg rounded-0 ps-5"
+                            autocomplete="off" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+
+                </div>
+        </section>
+        <section id="specific-phone-details">
+        </section>
+        <section id="error-section">
+        </section>
+        <div id="pagination-btn" class="container">
+            <div style="width: 85%;" class="d-flex justify-content-between mx-auto mt-5 w3-animate-opacity">
+                <div class="pt-3 mb-4 ms-2">
+                <a id="prevPageButton" href="#" class="w-20 text-center pagination-hover"><h5><span class="fs-6 me-1"><i class="fa-solid fa-chevron-left"></i></span>Previous</h5></a></div>
+                <div class="pt-3 mb-4 ms-2">
+                <a id="nextPageButton" class="w-20 text-center pagination-hover" href="#"><h5>More<span class="fs-6 ms-1"><i class="fa-solid fa-chevron-right"></i></span></h5></a></div>
+        </div>
+        </div>
+        <!-- card section start here  -->
+        <section id="card-section" class="container mt-5 pt-5">
+            <div style="width: 85%;" class="mx-auto mt-5">
+                <div class="mt-5">
+                    <div class="row">
+                        <h2 class="mb-5 mt-5">More Phones</h2>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <a class="text-center" href=""><img class="pt-4" src="images/home images/iphone1.png"
+                                        alt="" srcset=""></a>
+                                <div class="card-back">
+                                    <a class="text-decoration-none mt-0" href="">
+                                        <h3 class="card-back-title">Iphone</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <a class="text-center" href=""><img class="pt-4"
+                                        src="images/samsung-galaxy-s23png-removebg-preview.png" alt="" srcset=""></a>
+                                <div class="card-back">
+                                    <a class="text-decoration-none mt-0" href="">
+                                        <h3 class="card-back-title">Samsung</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <a class="text-center" href=""><img class="pt-4" src="images/Xiaomi 12T Pro.png" alt=""
+                                        srcset=""></a>
+                                <div class="card-back">
+                                    <a class="text-decoration-none mt-0" href="">
+                                        <h3 class="card-back-title">Xiaomi</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <a class="text-center" href=""><img class="pt-4" src="images/OnePlus.jpg" alt=""
+                                        srcset=""></a>
+                                <div class="card-back">
+                                    <a class="text-decoration-none mt-0" href="">
+                                        <h3 class="card-back-title">OnePlus</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-section" class="w-100">
+            <div class="">
+                <div class="d-flex justify-content-center home-div ">
+                    <div class="background-img w-100">
+                        <h1 class="text-center main-title">PhoneFly</h1>
+                        <h3 class="text-center fw-semibold">Choose Best Phone for you</h3>
+                        <h4 class="text-center fw-semibold main-description">Shop The Latest</h4>
+                        <div class="">
+                            <h4 class="text-center"><span class="order-btn fw-semibold text-primary"><a
+                                        class="text-decoration-none" href="">Order now</a> <i
+                                        class="fa-solid fa-chevron-right order-arrow"></i></span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gaming accesories section  -->
+        <section id="gaming-category" class="w-100" style="background-color: black;">
+            <div class="">
+                <div class="d-flex justify-content-center">
+                    <div class="w-100">
+                        <h1 class="text-center text-light mt-5 main-title">Be Confident in Games</h1>
+                        <h3 class="text-center text-light fw-semibold">Buy Gaming Accessories</h3>
+                        <div class="">
+                            <h4 class="text-center"><span class="order-btn fw-semibold text-primary"><a
+                                        class="text-decoration-none" href="">Order now</a> <i
+                                        class="fa-solid fa-chevron-right order-arrow"></i></span></h4>
+                            <div class="text-center mt-5">
+                                <img class="img-fluid mx-auto w-25 bg-img"
+                                    src="images/black-headphones-removebg-preview.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- phone brand section  -->
+        <section id="phone-brand">
+            <a href="" class="text-decoration-none">
+                <div class="row mt-3">
+                    <div class="col-lg-6 col-md-6 bg-light">
+                        <div>
+                            <h1 class="mt-0 text-center pt-5 phone-brand-title fw-semibold">Samsung</h1>
+                            <h3 class="mt-0 text-center fw-semibold">Inspire the World, Create the Future</h3>
+                            <div class="text-center mt-4">
+                                <img class="img-fluid w-75 phone-brand-img" src="images/samsung.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" style="background-color: black;">
+                        <div>
+                            <h1 class="mt-0 text-center pt-5 phone-brand-title fw-semibold text-light">Iphone</h1>
+                            <h3 class="mt-0 text-center fw-semibold text-light">Think Different.</h3>
+                            <div class="text-center mt-4">
+                                <img class="img-fluid w-75 phone-brand-img mb-0" src="images/iphone.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="text-decoration-none">
+                <div class="row mt-3">
+                    <div class="col-lg-6 col-md-6 bg-light">
+                        <div>
+                            <h1 class="mt-0 text-center pt-5 phone-brand-title fw-semibold">Xiaomi </h1>
+                            <h3 class="mt-0 text-center fw-semibold w-50 mx-auto">Make friends with users and be the
+                                coolest company in the users' hearts</h3>
+                            <div class="text-center mt-4">
+                                <img class="img-fluid w-50 phone-brand-img" src="images/OnePlus.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" style="background-color: black;">
+                        <div>
+                            <h1 class="mt-0 text-center pt-5 phone-brand-title fw-semibold text-light">OnePlus</h1>
+                            <h3 class="mt-0 text-center fw-semibold text-light">It's never about perfection.</h3>
+                            <div class="text-center mt-4">
+                                <img class="img-fluid w-75 phone-brand-img mb-0" src="images/Xiaomi 12T Pro.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!-- carousel section  -->
+
+        <section id="carousel-section" class="mt-2">
+            <div class="values-slider">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/SAMSUNG-BANNER.jpg" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/apple.jpg" alt="" srcset="">
+                            <button class="btn btn-light rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/xiaomi.jpg" alt="" srcset="">
+                            <button class="btn btn-light rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/oppo.jpg" alt="" srcset="">
+                            <button class="btn btn-light rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/vivo-banner.jpg" alt="" srcset="">
+                            <button class="btn btn-dark rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/nokia.jpg" alt="" srcset="">
+                            <button class="btn btn-light rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="">
+                            <img src="images/carousel image/walton.jpg" alt="" srcset="">
+                            <button class="btn btn-light rounded-5 carousel-btn px-4 fw-bold">Buy Now</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- about section start here -->
+        <section class="container mt-5 pt-5">
+            <div class="row mx-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="ps-3">
+                        <p class="fw-bold">Shop</p>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Samsung</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Apple</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Xiaomi</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Vivo</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">OnePlus</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Oppo</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Nokia</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="">
+                        <p class="fw-bold">Store</p>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Find a Store</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Order Status</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Shopping Help</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Camp</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class=" pe-3">
+                        <p class="fw-bold">About PhoneFly</p>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Newsroom</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Careers</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Events</p>
+                        </a>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Contact PhoneFly</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <section>
+            <div class="container">
+                <div class="d-block mx-5">
+                    <hr class="mx-4" style="border-top: 2px solid black;">
+                </div>
+                <div class="mx-5">
+                    <div class="mx-4 d-flex justify-content-between">
+                        <p style="color: gray;">Copyright © 2024 PhoneFly.</p>
+                        <div class="d-flex">
+                            <a class="about-p-btn" href="">
+                                <p class="mb-1">Privacy Policy |</p>
+                            </a>
+                            <a class="about-p-btn" href="">
+                                <p class="mb-1">&nbsp;Terms of Use |</p>
+                            </a>
+                            <a class="about-p-btn" href="">
+                                <p class="mb-1">&nbsp;Legal |</p>
+                            </a>
+                            <a class="about-p-btn" href="">
+                                <p class="mb-1">&nbsp;Site Map |</p>
+                            </a>
+                            <a class="about-p-btn" href="">
+                                <p class="mb-1">&nbsp;Sales and Refunds</p>
+                            </a>
+                        </div>
+                        <a class="about-p-btn" href="">
+                            <p class="mb-1">Chose Your Region</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

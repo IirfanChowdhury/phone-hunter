@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container {
+    background-color: rgba(15, 15, 15, 0.678);
+}
+
+#home-hover,
+#home-hover2 {
+    display: none;
+    position: absolute;
+    top: 32%;
+}
+
+#categories-hover,
+#categories-hover2 {
+    display: none;
+    position: absolute;
+    top: 32%;
+}
+
+#home-hover-deactive,
+#home-hover2-deactive {
+    animation: fade-out 3s ease-out forwards;
+    position: absolute;
+    top: 32%;
+}
+
+#search-hover {
+    display: none;
+    position: absolute;
+    top: 22%;
+}
+
+.text-decoration {
+    list-style: none;
+}
+
+#popular-title {
+    color: gray;
+}
+/* search icon  */
+.search-icon {
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    color: white;
+    font-size: large;
+}
+.error-search-icon {
+    position: absolute;
+    left: 16%;
+    /* top: 40%; */
+    color:black;
+    font-size: large;
+}
+
+/* search section  */
+#search-input,
+#search-input-error {
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+.search-bg {
+    background-color: rgb(40, 40, 43);
+}
+
+.search-bg:focus {
+    background-color: rgb(40, 40, 43);
+    box-shadow: 0 0 0;
+}
+.error-search-bg:focus {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    box-shadow: 0 0 0;
+}
+
+.search-icon-display {
+    position: absolute;
+    left: 70%;
+    color: gray;
+    font-weight: bolder;
+}
+
+.search-icon-display:hover {
+    color: white;
+    transition: all .5s;
+}
+
+.cart-icon:hover {
+    color: white;
+    transition: all .5s;
+}
+
+/* cart section  */
+.cart-icon {
+    position: absolute;
+    left: 75%;
+    color: gray;
+    font-weight: bolder;
+}
+
+.sign-title {
+    color: gray;
+}
+
+#cart-hover {
+    display: none;
+    position: absolute;
+    top: 38%;
+}
+
+/* support section  */
+#support-hover {
+    display: none;
+    position: absolute;
+    top: 28%;
+}
+
+/* main section  */
+.main-section {
+    filter: blur(10px);
+}
+
+/* logo image  */
+.logo-img {
+    width: 4%;
+}
+
+/* main section start here  */
+.background-img {
+    height: 540px;
+    background-image: url(../images/background.jpg);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-position-y: 90%; */
+}
+
+.home-div {
+    margin-top: 7%;
+}
+
+/* main title  */
+.main-title {
+    font-size: 45px;
+    font-weight: bold;
+    /* padding-top: 5%; */
+}
+
+.main-description {
+    color: gray;
+}
+
+/* order btn  */
+.order-arrow {
+    font-size: small;
+}
+
+.order-btn:hover {
+    text-decoration: underline;
+}
+
+/* phone brand section  */
+.phone-brand-title {
+    font-size: 45px;
+}
+
+.phone-brand-img {
+    height: 400px;
+}
+
+
+
+/* carousel section  */
+
+.values-slider .value {
+    box-sizing: border-box;
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #666;
+}
+
+.values-slider .value .head {}
+
+.values-slider .value .head h3 {
+    display: inline-block;
+    font: bold 24px 'open sans';
+    position: relative;
+    top: -20px;
+}
+
+.values-slider .value .head .line {
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: #eacfb1;
+    margin: 0 15px;
+    position: relative;
+    top: -25px;
+}
+
+.values-slider .value .head .value-icon {
+    display: inline-block;
+    width: 55px;
+    height: auto;
+}
+
+.values-slider .value .head .value-icon svg {
+    width: 100%;
+    height: auto;
+}
+
+.values-slider .value .value-text {
+    font: 12px quicksand;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.values-slider .owl-item .item {
+    filter: blur(4px);
+    transform: scale(.90);
+    transition: all .5s;
+}
+
+.values-slider .owl-item.active.center .item {
+    filter: blur(0);
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.values-slider .owl-nav {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+
+.values-slider .owl-nav .owl-prev {
+    float: left;
+}
+
+.values-slider .owl-nav .owl-prev span,
+.values-slider .owl-nav .owl-next span {
+    color: #666;
+    font-size: 48px;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.values-slider .owl-nav .owl-next {
+    float: right;
+}
+.owl-carousel .item img {
+    height: 350px;
+}
+.carousel-btn {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 10%;
+}
+.carousel-btn {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 10%;
+}
+/* about section start here  */
+.about-p-btn{
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+}  
+.about-p-btn:hover{
+    text-decoration: underline;
+}  
+/* result section  */
+.card-line-title {
+    text-decoration: none ;
+}
+.card-line-title:hover {
+    text-decoration: underline;
+    color: rgba(5, 99, 193);
+}
+.card-line-btn{
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    font-weight: 500;
+}
+/* card section  */
+.col-lg-3 .card img {
+    height: 150px;
+} 
+.card {
+}
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.02,1.02);
+    transition: all .5s;
+    
+}
+.card-back .card-back-title{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+#card-section {
+    display: none;
+}
+#result-section {
+    display: none;
+}
+/* pagination btn */
+.pagination-hover{
+    text-decoration: none;
+}
+.pagination-hover:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#pagination-btn{
+    display: none;
+}
+
+#prevPageButton {
+    display: none;
+}
+/* add to cart button style  */
+.addto-cart-btn {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .addto-cart-btn:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .addto-cart-btn:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .addto-cart-btn:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #141414;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .addto-cart-btn:hover {
+    color: #ffffff;
+    border: 1px solid #232525;
+  }
+  
+  .addto-cart-btn:hover:before {
+    top: -35%;
+    background-color:#232525;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .addto-cart-btn:hover:after {
+    top: -45%;
+    background-color: addto-cart-btn;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+
+
+/* fadeout animation */
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 776px) {
+
+    #home-hover,
+    #home-hover2,
+    #support-hover {
+        display: none !important;
+        position: absolute;
+        top: 35%;
+    }
+
+    .search-icon-display {
+        position: absolute;
+        left: 65%;
+        color: gray;
+        font-weight: bolder;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        left: 20%;
+    }
+
+    #search-hover {
+        display: none;
+        position: absolute;
+        top: 32%;
+    }
+
+    #navbar-brand {
+        padding-bottom: 0 !important;
+    }
+
+    /* main section  */
+    .background-img {
+        height: 500px;
+        background-image: url(../images/background.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 90%;
+    }
+
+    .main-title {
+        font-size: 35px;
+        font-weight: bold;
+        /* padding-top: 5%; */
+    }
+
+    .bg-img {
+        width: 50% !important;
+    }
+}
